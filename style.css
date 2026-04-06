@@ -3,3 +3,64 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fdecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: cursive;
+}
+
+.container {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Screens Styling */
+.screen {
+  display: none;
+  padding: 2rem;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
+
+/* Start Screen */
+#start-screen > h1 {
+  color: #b0413e;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.quiz-header {
+  margin-bottom: 2rem;
+}
+
+#question-text {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.quiz-info {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+.answers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
